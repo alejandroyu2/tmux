@@ -129,7 +129,7 @@ tmux \
 	bind-key -T "$keytable" M-r         "command-prompt 'rename-window %%'"
 
 # Synchronize panes on/off with with <M-Z/z>
-	bind-key -T "$keytable" M-Z set-window-option synchronize-panes on \; \
+tmux	bind-key -T "$keytable" M-Z set-window-option synchronize-panes on
 tmux \
 	bind-key -T "$keytable" M-z set-window-option synchronize-panes off
 
